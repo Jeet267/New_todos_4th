@@ -1,0 +1,33 @@
+# Todo App
+
+A simple Todo App built with HTML, CSS, and JavaScript. This app allows users to add, edit, and delete todo items.
+
+## Features
+
+- **Add Todo Items**: Users can add new todo items by typing in the input field and clicking the "Add" button.
+- **Edit Todo Items**: Users can edit existing todo items by clicking the "Edit" button next to each item. Once edited, they can save the changes by clicking the "Save" button.
+- **Delete Todo Items**: Users can delete todo items by clicking the "Delete" button next to each item.
+- **Local Storage**: The app uses local storage to save todo items, ensuring that they persist even after the user closes the browser.
+
+## How It Works
+
+1. **Initialization**: The app checks for existing todo items in local storage and displays them if found.
+2. **Adding Items**: When the user clicks the "Add" button, the app adds the new item to the list and updates local storage.
+3. **Editing Items**: When the user clicks the "Edit" button, the corresponding todo item becomes editable. After editing, clicking "Save" updates the item in local storage.
+4. **Deleting Items**: When the user clicks the "Delete" button, the app removes the item from the list and updates local storage.
+
+## Technologies Used
+
+- **HTML**: For structuring the content.
+- **CSS**: For styling the app.
+- **JavaScript**: For handling user interactions and updating the UI dynamically.
+- **Local Storage**: For persisting data across sessions.
+
+## Setup
+
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in a web browser to run the app.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests for any enhancements or bug fixes.

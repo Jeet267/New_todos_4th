@@ -1,3 +1,78 @@
-.input-area{
-    display: flex;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-buttons button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-buttons button:hover {
+  background-color: #45a049;
+}
+
+.show-div {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.show-div > div {
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-div span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+button.edit,
+button.del {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+button.edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+button.del {
+  background-color: #f44336;
+  color: white;
+}
